@@ -1,9 +1,44 @@
 /*custom changes*/
 
-#header>.logo {
-    margin: 0px auto;
-}
-
 #header {
     background: #000000;
+}
+
+#header .logo {
+    width: 370px;
+}
+
+.headerMenu {
+    margin-left: auto;
+}
+
+.rmUlNative,
+.rmUlNative li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.headerMenu li {
+    padding: 5px;
+    margin: 0px 15px 0px 0px;
+    min-width: 75px;
+}
+
+.headerMenu li a {
+    color: #C2BFBF;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.headerMenu li:hover a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.testiprofile {
+    min-width: 200px;
+    max-width: 200px;
+    border-radius: 100%;
+    overflow: hidden;
 }
