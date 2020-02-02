@@ -42,3 +42,12 @@
     border-radius: 100%;
     overflow: hidden;
 }
+
+.highlights section {
+    padding: 1.5rem !important;
+}
+
+.highlights section a,
+.highlights section a:hover {
+    color: #0056b3;
+}
